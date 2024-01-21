@@ -1,0 +1,86 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+header {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #45a29e;
+}
+
+section {
+    padding: 50px;
+    text-align: center;
+}
+p{
+font-size: 20px;
+}
+.roadmap {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.roadmap div {
+    text-align: center;
+}
+
+.roadmap i {
+    font-size: 50px;
+    color: #3498db; /* Blue color for icons */
+    margin-bottom: 10px;
+}
+
+.roadmap p {
+    font-size: 20px;
+}
+
+.join-us {
+    padding: 50px;
+    background-color: #2c3e50;
+}
+
+.telegram-channel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.telegram-channel i {
+    font-size: 50px;
+    color: #0088cc; /* Telegram blue color */
+    margin-right: 20px;
+}
+
+.telegram-channel p {
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.telegram-button {
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: #0088cc; /* Telegram blue color */
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    text-decoration: none; /* Remove underline for links */
+}
+
+.telegram-button i {
+    margin-right: 10px;
+}
+
+footer {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
